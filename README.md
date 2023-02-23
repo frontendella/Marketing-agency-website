@@ -5,4 +5,4 @@
 
 Photo is taken from [Unsplash](https://unsplash.com/)
 
-[Scrimba](https://scrimba.com/learn/designbootcamp)
+[Scrimba](https://scrimba.com/learn/responsive)
