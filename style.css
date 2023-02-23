@@ -37,9 +37,15 @@ h1, h2, strong {
     margin-bottom: 0;
 }
 
+
+
 .subtitle {
     font-size: 1.125rem;
     margin: .5em 0 3em;
+}
+
+.subtitle-home {
+    color: white;
 }
 
 .hero-title {
