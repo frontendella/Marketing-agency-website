@@ -8,39 +8,38 @@
         <!-- link to google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
         
-                <!-- https://cdnjs.com/libraries/font-awesome -->
-                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+        <!-- https://cdnjs.com/libraries/font-awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
         
         <!-- link to my CSS -->
-        <link href="style.css" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
     </head>
-    <body>
-        
+     <body>
         <header class="header header-home main-grid">
             <div class="header-content">
-                <a class="logo-link" href="/index.html">
-                    <img src="./img/logo.png" alt="" class="logo">
+                <a class="logo-link" href="index.html">
+                    <img src="img/logo.png" alt="" class="logo">
                 </a>
                 <button aria-label="Open navigation" class="open-nav">&#9776;</button>
 
-                <nav class="nav">
+                <nav class="nav"> 
                     <button aria-label="Close navigation" class="close-nav">&times;</button>
                     <ul class="nav-list">
-                        <li class="nav-item"><a href="/index.html" class="nav-link">home</a></li>
-                        <li class="nav-item"><a href="/about.html" class="nav-link">about us</a></li>
-                        <li class="nav-item"><a href="/contact.html" class="nav-link">contact</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link current">home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
                     </ul>
                 </nav>
+                
+                
             </div>
         </header>
         
         <main>
             <section class="hero main-grid">
-                <div class="col-2">
-                    <h1 class="hero-title">The only marketing agency on <span class="accent-color">a mission from God</a>, fully dedicated to increase your web traffic. </h1>
-                    <p class="subtitle subtitle-home">We’re two brothers from Chicago that are trying to pay back our debt. We can help you with <strong>SEO, SEM content marketing</strong> and whatever else.</p>
-                    <a class="btn btn-primary">contact</a>
-                </div>
+                <h1 class="hero-title">The only marketing agency on <span class="accent-color">a mission from God</span>, fully dedicated to increase your web traffic. </h1>
+                <p class="hero-subtitle">We’re two brothers from Chicago that are trying to pay back our debt. We can help you with <strong>SEO, SEM content marketing</strong> and whatever else.</p>
+                <a href="index.html" class="btn btn-primary">contact</a>
             </section>
         
             <section class="info main-grid">
@@ -60,16 +59,11 @@
         
         </main>
         
-        
         <footer class="footer main-grid">
-            <div class="footer-main" >
-                <img src="./img/logo.png" alt="logo" class="footer-logo">
-                <p class="footer-text">
-                    Two brothers from Chicago that are just trying to pay back their debt by helping others with their SEO, SEM, and Content Marketing needs.
-                </p>
-                <p class="footer-fineprint">
-                    © Jake&Elwood 2019
-                </p>
+            <div class="footer-main">
+                <img src="img/logo.png" alt="" class="footer-logo">
+                <p class="footer-text">Two brothers from Chicago that are just trying to pay back their debt by helping others with their SEO, SEM, and Content Marketing needs.</p>
+                <p class="footer-fineprint">© Jake&Elwood 2019</p>
             </div>
             <ul class="social-list">
                 <li class="social-item"><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
@@ -77,6 +71,8 @@
                 <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </footer>
-        <script src="./script.js"></script>
+        
+        
+        <script src="script.js"></script>
     </body>
 </html>
