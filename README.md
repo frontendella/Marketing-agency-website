@@ -1,4 +1,4 @@
-# [Marketing agency website]( https://frontendella.github.io/Marketing-agency-website/) (currently in a progress...)
+# [Marketing agency website]( https://frontendella.github.io/Marketing-agency-website/)
 
 ![Marketing website video (1)](https://user-images.githubusercontent.com/82247833/221116780-d0b0155b-1a99-4c55-9ef1-7d3259c7433a.gif)
 
