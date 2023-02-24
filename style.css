@@ -181,7 +181,8 @@ h1, h2, strong {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.nav-link:active {
     color: #FFE600;
 }
 
